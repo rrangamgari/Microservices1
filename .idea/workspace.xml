@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf917b01-6c1b-498c-abe3-000ca8d44a45" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/microservice-git" />
+  </component>
+  <component name="ProjectId" id="1Wild818YaJSG4v2uGh5rC0b0a8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/currencyExchangeService/src/main/java/com/rangamgari/currencyExchangeService" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Personal\Microservices\currencyExchangeService\src\main\java\com\rangamgari\currencyExchangeService" />
+      <recent name="C:\Personal\Microservices\microservice-git" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rangamgari.limitService.domain" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CurrencyExchangeServiceApplication (1)">
+    <configuration name="CurrencyExchangeServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="currencyExchangeService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rangamgari.currencyExchangeService.CurrencyExchangeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyExchangeServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="currency-exchange-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rangamgari.currencyexchangeservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rangamgari.currencyexchangeservice.CurrencyExchangeServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LimitServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="limitService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rangamgari.limitService.LimitServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyCurrencyConverterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MyCurrencyConverter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rangamgari.MyCurrencyConverter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rangamgari.MyCurrencyConverter.MyCurrencyConverterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rangamgari.springcloudconfigserver.SpringCloudConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CurrencyExchangeServiceApplication" />
+        <item itemvalue="Spring Boot.MyCurrencyConverterApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf917b01-6c1b-498c-abe3-000ca8d44a45" name="Default Changelist" comment="" />
+      <created>1579640380311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579640380311</updated>
+      <workItem from="1579640381504" duration="10641000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1579653530529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579653530529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2445" y="165" key="#CurrencyExchangeServiceApplication" timestamp="1579652764002">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2445" y="165" key="#CurrencyExchangeServiceApplication/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579652764002" />
+    <state x="2472" y="182" key="#Project_Structure" timestamp="1579644690071">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="182" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579644690071" />
+    <state x="2685" y="214" key="#com.intellij.ide.util.MemberChooser" timestamp="1579652105404">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="214" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579641505664" />
+    <state x="2685" y="214" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579652105404" />
+    <state x="811" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579640481598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="811" y="413" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579640481598" />
+    <state x="2518" y="121" key="CommitChangelistDialog2" timestamp="1579653528847">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2518" y="121" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653528847" />
+    <state x="2683" y="333" key="FileChooserDialogImpl" timestamp="1579653703140">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2683" y="333" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653703140" />
+    <state x="2718" y="438" width="347" height="163" key="Github.CreateGistDialog" timestamp="1579646970600">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2718" y="438" width="347" height="163" key="Github.CreateGistDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579646970600" />
+    <state x="2477" y="419" width="534" height="201" key="Github.ShareDialog" timestamp="1579653817334">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2477" y="419" width="534" height="201" key="Github.ShareDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653817334" />
+    <state width="1293" height="274" key="GridCell.Tab.0.bottom" timestamp="1579653069383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579641637679" />
+    <state width="1293" height="274" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653069383" />
+    <state width="1293" height="274" key="GridCell.Tab.0.center" timestamp="1579653069383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579641637679" />
+    <state width="1293" height="274" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653069383" />
+    <state width="1293" height="274" key="GridCell.Tab.0.left" timestamp="1579653069383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579641637679" />
+    <state width="1293" height="274" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653069383" />
+    <state width="1293" height="274" key="GridCell.Tab.0.right" timestamp="1579653069383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579641637679" />
+    <state width="1293" height="274" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653069383" />
+    <state width="1293" height="274" key="GridCell.Tab.1.bottom" timestamp="1579653069383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579641637679" />
+    <state width="1293" height="274" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653069383" />
+    <state width="1293" height="274" key="GridCell.Tab.1.center" timestamp="1579653069383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579641637679" />
+    <state width="1293" height="274" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653069383" />
+    <state width="1293" height="274" key="GridCell.Tab.1.left" timestamp="1579653069383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579641637679" />
+    <state width="1293" height="274" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653069383" />
+    <state width="1293" height="274" key="GridCell.Tab.1.right" timestamp="1579653069383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579641637679" />
+    <state width="1293" height="274" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579653069383" />
+    <state x="2494" y="189" key="Registry" timestamp="1579644659597">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2494" y="189" key="Registry/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579644659597" />
+    <state x="2383" y="166" key="SettingsEditor" timestamp="1579647399719">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2383" y="166" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579647399719" />
+    <state x="2668" y="324" key="git4idea.merge.GitPullDialog" timestamp="1579647688275">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2668" y="324" key="git4idea.merge.GitPullDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579647688275" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579644635563">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1579644635563" />
+  </component>
+</project>
