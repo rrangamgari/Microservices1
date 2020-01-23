@@ -15,6 +15,6 @@ public class CurrencyExchangeController {
   public Currency convertCurrencyStr(
       @PathVariable("from") String from, @PathVariable("to") String to) {
     System.out.println(from);
-    return new Currency(from, to, 70, Integer.parseInt(environment.getProperty("local.server.port")), 1000);
+    return new Currency(from, to, 70L, Long.parseLong(environment.getProperty("local.server.port")), 1900L);
   }
 }

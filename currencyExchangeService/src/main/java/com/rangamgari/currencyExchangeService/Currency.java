@@ -1,25 +1,27 @@
 package com.rangamgari.currencyExchangeService;
 
-public class Currency {
-  private int id;
+import java.io.Serializable;
+
+public class Currency implements Serializable {
+  private Long id;
   private String from;
   private String to;
-  private int converstionMultiple;
-  private int port;
+  private Long conversionMultiple;
+  private Long port;
 
-  public Currency(String from, String to, int converstionMultiple, int port, int id) {
+  public Currency(String from, String to, Long conversionMultiple, Long port, Long id) {
     this.from = from;
     this.to = to;
-    this.converstionMultiple = converstionMultiple;
+    this.conversionMultiple = conversionMultiple;
     this.port = port;
     this.id = id;
   }
 
-  public int getId() {
+  public Long getId() {
     return id;
   }
 
-  public void setId(int id) {
+  public void setId(Long id) {
     this.id = id;
   }
 
@@ -39,19 +41,19 @@ public class Currency {
     this.to = to;
   }
 
-  public int getConverstionMultiple() {
-    return converstionMultiple;
+  public Long getConversionMultiple() {
+    return conversionMultiple;
   }
 
-  public void setConverstionMultiple(int converstionMultiple) {
-    this.converstionMultiple = converstionMultiple;
+  public void setConversionMultiple(Long conversationMultiple) {
+    this.conversionMultiple = conversationMultiple;
   }
 
-  public int getPort() {
+  public Long getPort() {
     return port;
   }
 
-  public void setPort(int port) {
+  public void setPort(Long port) {
     this.port = port;
   }
 }
