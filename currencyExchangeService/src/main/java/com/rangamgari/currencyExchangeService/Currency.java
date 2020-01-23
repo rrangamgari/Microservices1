@@ -7,9 +7,12 @@ public class Currency {
   private int converstionMultiple;
   private int port;
 
-  public Currency(String from, String to) {
+  public Currency(String from, String to, int converstionMultiple, int port, int id) {
     this.from = from;
     this.to = to;
+    this.converstionMultiple = converstionMultiple;
+    this.port = port;
+    this.id = id;
   }
 
   public int getId() {
