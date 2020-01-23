@@ -38,4 +38,26 @@ public class CurrencyConversionController {
         Long.parseLong(quantity),
             Long.parseLong(env.getProperty("local.server.port")));
   }
+  @GetMapping("currency-conversion-fiegn/{from}/to/{to}/quantity/{quantity}")
+  public CurrencyConversionBean convertCurrencyFeign(
+          @PathVariable String from, @PathVariable String to, @PathVariable String quantity) {
+    Map<String, String> uriVariables = new HashMap<>();
+    uriVariables.put("from", from);
+    uriVariables.put("to", to);
+    ResponseEntity<CurrencyConversionBean> responseEntity =
+            new RestTemplate()
+                    .getForEntity(
+                            "http://localhost:8001/currency-exchange/{from}/to/{to}",
+                            CurrencyConversionBean.class,
+                            uriVariables);
+    CurrencyConversionBean currencyConversionBean = responseEntity.getBody();
+    System.out.println(responseEntity.getBody().getConversionMultiple());
+    return new CurrencyConversionBean(
+            currencyConversionBean.getId(),
+            from,
+            to,
+            currencyConversionBean.getConversionMultiple(),
+            Long.parseLong(quantity),
+            Long.parseLong(env.getProperty("local.server.port")));
+  }
 }
