@@ -55,6 +55,6 @@ public class CurrencyConversionController {
         to,
         currencyConversionBean.getConversionMultiple(),
         Long.parseLong(quantity),
-        Long.parseLong(env.getProperty("local.server.port")));
+        currencyConversionBean.getPort());
   }
 }

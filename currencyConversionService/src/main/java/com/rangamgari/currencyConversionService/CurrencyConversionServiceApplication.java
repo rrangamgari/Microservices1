@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableFeignClients("com.rangamgari.currencyConversionService")
+
 @SpringBootApplication
 public class CurrencyConversionServiceApplication {
 
