@@ -44,8 +44,10 @@ public class CurrencyConversionController {
 
   @GetMapping("currency-conversion-feign/{from}/to/{to}/quantity/{quantity}")
   public CurrencyConversionBean convertCurrencyFeign(
-      @PathVariable String from, @PathVariable String to, @PathVariable String quantity) {
-
+      @PathVariable("from") String from,
+      @PathVariable("to") String to,
+      @PathVariable String quantity) {
+    System.out.println("Started Currency Conversion Bean" + from);
     CurrencyConversionBean currencyConversionBean =
         currencyExchangeServiceProxy.retrieveExchangeValue(from, to);
     System.out.println(currencyConversionBean.getConversionMultiple());

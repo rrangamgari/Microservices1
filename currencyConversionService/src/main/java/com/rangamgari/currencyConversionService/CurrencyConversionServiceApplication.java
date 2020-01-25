@@ -2,10 +2,11 @@ package com.rangamgari.currencyConversionService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@EnableFeignClients("com.rangamgari.currencyConversionService")
-
+@EnableFeignClients("com.rangamgari.currencyConversionService.proxy")
+@EnableDiscoveryClient
 @SpringBootApplication
 public class CurrencyConversionServiceApplication {
 
